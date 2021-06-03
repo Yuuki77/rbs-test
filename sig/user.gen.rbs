@@ -1,0 +1,7 @@
+# Classes
+class User
+  def initialize: (name: String, emails: [String]) -> void
+  attr_reader name: String
+  attr_reader emails: Array[String]
+  def each_mail: -> Array[String]
+end

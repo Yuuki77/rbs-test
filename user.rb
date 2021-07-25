@@ -4,6 +4,7 @@ class User
     # @
     @name = name
     @emails = emails
+    # @name = "test"
   end
 
   attr_reader :name, :emails
@@ -14,4 +15,4 @@ class User
   end
 end
 
-User.new(emails: ["test@gmail.com"], name:123)
+user = User.new(emails: ["test@gmail.com"], name:"123")

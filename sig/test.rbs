@@ -1,0 +1,14 @@
+type foo_alias = Integer | String
+class Why
+end
+
+class Qux
+  def bar: (In) -> nil
+
+  # singleton()
+end
+
+interface _Fooable
+  def foo: () -> nil
+end
+
